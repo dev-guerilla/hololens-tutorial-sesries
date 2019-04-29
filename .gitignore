@@ -57,10 +57,10 @@ mono_crash.*
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
+DevGuerillaCVPlugin/x64/*
+DevGuerillaCVPlugin/x86/*
+DevGuerillaCVPlugin/[Aa][Rr][Mm]/
+DevGuerillaCVPlugin/[Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -381,6 +381,6 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-!/Dependencies/UWP/x86/bin
-!/Dependencies/UWP/x86/lib
-!/Dependencies/UWP/x86/include
+!Dependencies/UWP/x86
+!Dependencies/UWP/x86/bin
+
