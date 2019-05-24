@@ -1,2 +1,2 @@
-# hololens-tutorial-sesries
+# hololens-tutorial-series
 Hololens tutorial series
